@@ -1,0 +1,53 @@
+Variables in C++
+
+dataType variableName = "I am a variable";
+int a = 10; 
+
+Variables in JS
+const, let, var
+
+Const
+const age = 20;
+age = 21 // variable cannot be modified in const
+const age = 340 // variable cannot be reinitialised in const
+
+Let
+let b = 20;
+b = 30 // variable can be modified in let
+
+Var
+var car = "mercedes"
+car = "buggati" // variable can be modified in var
+var car = 10; // variable can be reinitialised
+
+
+Strictness Order
+const > let > var
+
+
+Functions in C++
+
+int functionKaNaam() {
+    cout<<"Hellooooo"
+    return 0;
+}
+
+Functions in JS
+
+// Type 1
+// function definition
+function functionKaNaam() {
+    console.log("JS ka function hu mai")
+    return;
+}
+// function calling
+functionKaNaam()
+
+// Type 2
+// function definition
+const functionKaNaam = () => {
+    console.log("JS ka function hu mai")
+    return;
+}
+// function calling
+functionKaNaam()
