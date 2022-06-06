@@ -1,0 +1,36 @@
+Two Types of components in React
+
+1. Class Component
+2. Functional Component
+
+
+Class Component
+
+class ClassName extends React.Component {
+    render() {
+        return <h1>Hello</h1>
+    }
+}
+
+Functional Components
+Type 1
+
+function ComponentKaNaam() {
+
+    JS code will come here
+
+    const age = 10 + 30
+
+    return (
+        <h1>Age</h1>
+    )
+}
+
+Type 2
+const ComponentKaNaam = () => {
+    return (
+        <div>
+        
+        </div>
+    )
+}

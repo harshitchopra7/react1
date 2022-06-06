@@ -1,8 +1,10 @@
 import './App.css';
 
 function App() {
+  console.log("hello0000000")
+  const age = 10 + 30;
   return (
-   <p>Hi</p>
+    <h1>Hello your age is - {age}</h1>
   );
 }
 
